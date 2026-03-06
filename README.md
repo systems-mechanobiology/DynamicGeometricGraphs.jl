@@ -1,5 +1,7 @@
 # DynamicGeometricGraphs.jl
 
+[![CI](https://github.com/systems-mechanobiology/DynamicGeometricGraphs.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/systems-mechanobiology/DynamicGeometricGraphs.jl/actions/workflows/ci.yml)
+
 DynamicGeometricGraphs.jl provides a dynamic geometric graph data structure that pairs graph topology from the [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl) ecosystem with N-dimensional vertex coordinates represented using `StaticArrays`. The package is designed for graphs that undergo frequent edits (additions/removals of vertices and edges).
 
 ![Dynamic Graph Operations](docs/dynamic_graph_operations.gif)
